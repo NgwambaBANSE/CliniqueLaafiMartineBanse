@@ -26,10 +26,14 @@
 .services-text h1 {
   font-weight: bold;
   font-size: 60px;
-  color: white;
+  color: black;
+  display: flex;
+  margin-right: 0%;
+  margin-bottom: 50px;
 }
 .services-text span {
   color: black;
+  margin-bottom: 50px;
 }
 
 .services-votre {
@@ -47,12 +51,12 @@
   opacity: 200;
 }
 
-.services-resume {
+.specialite-resume {
   width: 100%;
   height: 100px;
   background-color: #2e78e6;
 }
-.services-resume .services-desc {
+.specialite-resume .specialite-desc {
   gap: 100px;
   display: flex;
   justify-content: center;
@@ -60,11 +64,36 @@
   color: aqua;
   
 }
-.services-desc{
+.specialite-desc h2,
+.specialite-desc h3{
   display: flex;
   color: white;
 }
 
+.despistage img{
+  width: 100%;
+  height: 400px;
+  background-image: none;
+  }
+  .despistage-contenu{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  
+  }
+  .despistage-contenu img{
+    width: 100%;
+    height: 55%;
+  }
+  .temoingnage{
+    text-align: center;
+    color: white;
+  }
+  .ima img{
+    width:200px ;
+    height: 250px;
+    border-radius: 25%;
+  }
 /* footer */
 .footeColor {
   width: 100%;
@@ -91,3 +120,4 @@
   text-decoration: none;
   color: black;
 }
+

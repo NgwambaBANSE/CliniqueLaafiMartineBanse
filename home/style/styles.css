@@ -251,8 +251,9 @@ header {
 .urgence li {
   color: white;
 }
-.ur {
+.ur li {
   height: 10px;
+  color: red;
 }
 .image {
   height: 20px;

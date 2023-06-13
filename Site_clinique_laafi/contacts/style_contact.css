@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+.contact-bg {
+  width: 100%;
+  height: 400px;
+  /* background-image: url(../img/imgser.jpg); */
+  background-size: cover;
+  background-position: center;
+}
+.contact-contenu {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  margin-top: 20px;
+}
+.contact-contenu img {
+  width: 300px;
+}
+.contact-bg-home {
+  margin-top: 60px;
+}
+.contact-text h1 {
+  font-weight: bold;
+  font-size: 60px;
+  color: #2e78e6;
+}
+.contact-text span {
+  color: black;
+}
+
+.contact-votre {
+  display: flex;
+}
+
+.contact-sante {
+  display: flex;
+}
+
+.contact-resume {
+  width: 100%;
+  height: 100px;
+  background-color: #2e78e6;
+}
+.contact-resume .contact-desc {
+  gap: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-desc h2,
+.contact-desc h3 {
+  color: white;
+  font-weight: bold;
+}
+.bsLirePlus button {
+  border: none;
+  border-radius: 20px;
+  background-color: blue;
+  font-weight: bold;
+}
+.formDclic h5 {
+  font-weight: bold;
+}
+
+.equipe-cover {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  opacity: 0, 5;
+}
+.despistage {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+}
+.despistage-contenu {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+.despistage-contenu p,
+.despistage-contenu span {
+  font-weight: bold;
+  font-size: 30px;
+}
+.despistage-contenu span {
+  color: blue;
+}
+.specialites img{
+  width: 100%;
+ 
+}
+/* .contact-type div {
+
+} */

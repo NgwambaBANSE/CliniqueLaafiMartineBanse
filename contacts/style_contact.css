@@ -1,0 +1,80 @@
+.services-contenu {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .services-contenu img {
+    width: 300px;
+  }
+  .services-bg-home {
+    margin-top: 60px;
+  }
+  .services-text h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+  }
+  .services-text span {
+    color: black;
+  }
+  .services-votre {
+    display: flex;
+  }
+  .services-sante {
+    display: flex;
+    color: white;
+  }
+  .specialites img {
+    width: 100%;
+    height: 500px;
+    opacity: 200;
+  }
+.services-resume{
+    width: 100%;
+    height: 50px;
+    background-color: #2e78e6;
+  }
+  .services-resume .services-desc {
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+  }
+  .services-desc{
+    display: flex;
+    color: white;
+  }
+  .services-desc div h3{
+    font-weight: bold;
+  }
+
+/* footer */
+.footeColor{
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+  }
+  .footeColor div div h1{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .CopyrightT{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .footeColor div img{
+    height: 100px;
+    width: 150px;
+    margin-top: 20px;
+  }
+  .footeColor div a{
+    text-decoration: none;
+    color: black;
+  }
+  
